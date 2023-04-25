@@ -66,6 +66,7 @@ class NumericAST : public BaseAST {};
 class BinaryAST : public BaseAST {};
 // 用于函数声明的 AST 类定义
 class FunctionDeclAST {};
-
+// 用于函数定义的 AST 类
 class FunctionDefnAST {};
+// 用于函数调用
 class FunctionCallAST : public BaseAST {};
